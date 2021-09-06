@@ -7,11 +7,18 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
     <title>Bot Gabut | Home</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/standard (3).gif" />
+
+    <script src="//code.tidio.co/juxxh4gzbeprazdzauji1b2uiyzcwklv.js" async></script>
   </head>
   <body id="home">
     <!-- Navbar -->
@@ -26,9 +33,9 @@
             <a class="nav-link active" aria-current="page" href="#home">Home</a>
             <a class="nav-link" href="#about">About Me</a>
             <a class="nav-link" href="#projects">Projects</a>
-            <a class="nav-link" href="#contact">Contact Me</a>
-            <a class="nav-link" href="https://discord.com/oauth2/authorize?client_id=856891420535291926&permissions=1563950806&scope=bot">Invite Bot</a>
+            <a class="nav-link" href="#discord">Server</a>
             <a class="nav-link" href="#donate">Donate</a>
+            <a class="nav-link" href="https://discord.com/oauth2/authorize?client_id=856891420535291926&permissions=1563950806&scope=bot">Invite Bot</a>
           </div>
         </div>
       </div>
@@ -39,7 +46,7 @@
     <section class="jumbotron text-center">
       <img src="img/standard (3).gif" alt="Image Bot Gabut" width="200" class="rounded-circle" />
       <h1 class="display-4">Bot Gabut</h1>
-      <p class="lead">Bot made By Person Indonesia</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -52,18 +59,18 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-down">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Nama saya Koko Umur 11. Saat ini saya sedang membuat Bot Discord dan sekarang sudah bisa dipakai disemua server Discord, saya bangga dengan diri saya sendiri</p>
+          <div class="col-md-4" data-aos="fade-right" data-aos-delay="100">
+            <p>My name is Koko Age 11. I'm currently making a Discord Bot and now it can be used on all Discord servers, I'm proud of myself</p>
           </div>
-          <div class="col-md-4">
-            <p>Aplikasi yang saya pakai untuk membuat Bot Discord dan Website</p>
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="100">
+            <p>The application I use to create Discord Bots and Websites</p>
             <p>-Glitch -Visual Studio Code -Github</p>
           </div>
         </div>
@@ -80,34 +87,34 @@
 
     <!-- Projects -->
     <section id="projects">
-      <div class="container">
+      <div class="container" data-aos="fade-down">
         <div class="row text-center">
           <div class="col">
             <h2>My Projects</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
             <div class="card" style="width: 18rem">
               <img src="img/Screenshot (106).png" class="card-img-top" alt="Project Bot Discord" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Process Making The Bot.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-up" data-aos-delay="100">
             <div class="card" style="width: 18rem">
               <img src="img/Screenshot (105).png" class="card-img-top" alt="Project Website Bot Gabut" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Process Making The Website.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-right" data-aos-delay="100">
             <div class="card" style="width: 18rem">
               <img src="img/Screenshot (107).png" class="card-img-top" alt="Project service make Bot Discord" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Making service Make Bot Discord.</p>
               </div>
             </div>
           </div>
@@ -123,32 +130,16 @@
     </section>
     <!-- Akhir Projects -->
 
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center md-3">
-          <div class="cow">
-            <h2>Contact Me</h2>
-          </div>
+    <!-- Discord Server -->
+    <section id="discord">
+      <div class="info-margin" data-aos="fade-down" data-aos-offset="200">
+        <div class="info-design right" align="center">
+          <img src="https://iconape.com/wp-content/files/jj/247426/png/discord-logo.png" draggable="false" />
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="name" class="form-control" id="name" aria-describedby="name" />
-              </div>
-              <div class="mb-3">
-                <label for="gmail" class="form-label">Email</label>
-                <input type="email" class="form-control" id="gmail" aria-describedby="gmail" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Message</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
+        <div class="info-text right" align="center">
+          <h1>Discord</h1>
+          <p>There is <b>20</b> Member, Let's Join!</p>
+          <a href="https://discord.gg/begKJJBM6U" class="btn btn-primary">Join</a>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -159,15 +150,30 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Conteact -->
+    <!-- Akhir Discord Server -->
 
     <!-- Footer -->
     <footer class="bg-primary text-white text-center pb-3">
-      <p>Created By <a href="#" class="text-white fw-bold">Koko123tutorial</a></p>
-      <p id="donate">Donate <a href="https://saweria.co/koko123tutorial">Pls</a></p>
+      <p>Created By <a href="https://www.youtube.com/channel/UCGQTuI1cHNIQ1TQ6YzSSLsg/featured" class="text-white fw-bold">Koko123tutorial</a></p>
+      <p id="donate">Donate <a href="https://saweria.co/koko123tutorial" class="text-white fw-bold">Pls</a></p>
     </footer>
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', { duration: 2, delay: 1.5, text: 'Bot made By Koko123tutorial' })
+      gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0, });
+      gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' })
+      gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' })
+    </script>
   </body>
 </html>
